@@ -72,6 +72,9 @@ class Program
     }
 }
 
+![image](https://github.com/user-attachments/assets/4714a833-832d-4b78-8891-a09c4ccabace)
+
+
 Ejercicio 3 – Eliminar asignaturas aprobadas
 using System;
 using System.Collections.Generic;
@@ -117,7 +120,7 @@ class Curso
         List<string> reprobadas = new List<string>();
         foreach (var a in Asignaturas)
         {
-            if (a.Nota < 60)
+            if (a.Nota < 7)
                 reprobadas.Add(a.Nombre);
         }
 
@@ -134,6 +137,9 @@ class Program
         curso.MostrarReprobadas();
     }
 }
+
+![image](https://github.com/user-attachments/assets/abf95d81-a156-46a5-97fe-8022e30f806a)
+
 
 Ejercicio 4 – Eliminar letras en posiciones múltiplos de 3
 using System;
@@ -179,6 +185,9 @@ class Program
     }
 }
 
+![image](https://github.com/user-attachments/assets/54f89db5-2834-4764-98a8-f3fa0042e078)
+
+
 Ejercicio 5 – Verificar si es palíndromo
 using System;
 
@@ -203,6 +212,9 @@ class Palindromo
             Console.WriteLine("No es un palíndromo.");
     }
 }
+
+![image](https://github.com/user-attachments/assets/a7c2b9e6-61c0-4eed-b5ae-ca698b5426f1)
+
 
 Ejercicio 6 – Contar vocales en una palabra (POO en C#)
 using System;
@@ -265,3 +277,6 @@ namespace ContadorVocales
         }
     }
 }
+
+
+![image](https://github.com/user-attachments/assets/3d8ab18f-8317-4a99-ae76-f20e330dbd0b)
