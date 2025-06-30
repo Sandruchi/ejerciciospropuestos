@@ -36,6 +36,9 @@ class Program
     }
 }
 
+![Imagen1](https://github.com/user-attachments/assets/f575606b-5e8e-423b-ab1f-8ce77e00f5db)
+
+
 Ejercicio 2 – Mostrar del 10 al 1 separados por coma
 using System;
 using System.Collections.Generic;
